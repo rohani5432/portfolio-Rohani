@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
-import { Github, Linkedin, Mail, Phone, MapPin, ArrowRight, ExternalLink, Menu, X, Briefcase, GraduationCap, Award, Code2 } from "lucide-react";
-import heroVisual from "@/assets/hero-visual.jpg";
+import { Github, Linkedin, Mail, Phone, MapPin, ArrowRight, ExternalLink, Menu, X, Briefcase, GraduationCap, Award, Code2, Download } from "lucide-react";
 import { profile, skills, projects, experience, education, certifications } from "@/data/profile";
 
 const title = `${profile.name} — ${profile.role} Portfolio`;
@@ -123,12 +122,13 @@ function Hero() {
           <div className="reveal mt-8 flex flex-wrap gap-4">
             <a href="#projects" className={btnPrimary}>View My Work <ArrowRight className="h-4 w-4" /></a>
             <a href="#contact" className={btnGhost}>Contact Me</a>
+            <a href={profile.resumeUrl} download="Rohani-Kumari-Resume.pdf" className={btnGhost}><Download className="h-4 w-4" /> Download CV</a>
           </div>
           <Socials className="reveal mt-8" />
         </div>
         <div className="reveal relative mx-auto w-full max-w-md">
           <div aria-hidden className="absolute inset-6 rounded-full bg-gradient-brand opacity-40 blur-3xl" />
-          <img src={heroVisual} alt="Abstract glass sculpture in violet and blue" width={1024} height={1024} fetchPriority="high"
+          <img src={profile.photoUrl} alt={`${profile.name} — ${profile.role}`} width={1240} height={1240} fetchPriority="high"
             className="animate-float relative aspect-square w-full rounded-[2rem] object-cover" />
         </div>
       </div>
