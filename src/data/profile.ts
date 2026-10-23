@@ -24,7 +24,8 @@ export const profile = {
 };
 
 export const skills = [
-  { group: "Languages & Frameworks", items: ["PHP", "Laravel", "JavaScript"] },
+  { group: "Languages & Frameworks", items: ["Python", "PHP", "Laravel", "JavaScript"] },
+  { group: "Testing & QA", items: ["QA Testing", "Test Case Management"] },
   { group: "Backend", items: ["MVC Architecture", "Eloquent ORM", "RESTful APIs", "OOP"] },
   { group: "Frontend", items: ["HTML5", "CSS3", "JavaScript"] },
   { group: "Database", items: ["MySQL", "SQL"] },
