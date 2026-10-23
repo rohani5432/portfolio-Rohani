@@ -1,4 +1,7 @@
 // Edit everything about your portfolio here.
+import portraitAsset from "@/assets/rohani-portrait.jpg.asset.json";
+import resumeAsset from "@/assets/rohani-resume.pdf.asset.json";
+
 export const profile = {
   name: "Rohani Kumari",
   role: "Aspiring Software Engineer",
@@ -10,13 +13,14 @@ export const profile = {
   phone: "+91 9123177728",
   linkedin: "https://linkedin.com/in/rohani-kumari",
   github: "https://github.com/rohani5432",
-  resumeUrl: "", // Add a link to your CV PDF here to show a "Download CV" button
+  photoUrl: portraitAsset.url,
+  resumeUrl: resumeAsset.url,
   about: [
     "I'm comfortable across the stack — from MySQL-backed backend logic in PHP and Laravel to responsive front ends in HTML, CSS and JavaScript.",
     "Through Deloitte and JPMorgan Chase & Co. job simulations I've gained hands-on exposure to API integration, data analytics and event-driven concepts.",
   ],
   interests: ["[Add an interest]", "[Add an interest]", "[Add an interest]"],
-  goal: "[Write your career goal here — e.g. the kind of team or role you want to grow into.]",
+  goal: "My goal is to become a skilled Software Engineer by strengthening my Python programming, problem-solving, and software testing skills. I aspire to build reliable, efficient, and user-friendly software solutions while gaining practical experience in software development and Quality Assurance (QA). I am eager to learn new technologies, improve my technical abilities, and contribute to meaningful projects that solve real-world problems.",
 };
 
 export const skills = [
