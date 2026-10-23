@@ -1,7 +1,7 @@
 // Edit everything about your portfolio here.
 export const profile = {
   name: "Rohani Kumari",
-  role: "Full Stack Web Developer",
+  role: "Aspiring Software Engineer",
   headline: "I build reliable web apps, from database to interface.",
   intro:
     "PHP & Laravel developer with internship experience building full-stack applications using MVC, Eloquent ORM and RESTful APIs. Currently pursuing my MCA.",
@@ -30,34 +30,34 @@ export const skills = [
 
 export const projects = [
   {
-    title: "EventSphere",
-    tagline: "Cross-cultural engagement platform",
+    title: "TestPilot AI QA Suite",
+    tagline: "Test management workspace",
     description:
-      "Designed the MySQL schema and PHP backend for user interactions on an events-based platform, connected to the frontend via RESTful data calls.",
-    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "A responsive test management workspace for manual QA teams: test cases, bug tracking, execution history, and review-ready reports, with a rule-based test scenario generator.",
+    tech: ["React", "TypeScript", "Express", "PostgreSQL", "Drizzle ORM"],
     image: "", // Add a screenshot URL
     demo: "", // Add live demo URL
-    repo: "", // Add GitHub repo URL
+    repo: "https://github.com/rohani5432/TestPilot-AI-QA-Suite",
   },
   {
-    title: "Medicine Donation System",
-    tagline: "Donation management platform",
+    title: "Claim Policy Check",
+    tagline: "Expense claim policy review assistant",
     description:
-      "Built donation listing, request and tracking workflows end-to-end using a PHP backend and MySQL data store.",
-    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "An internal review workspace combining deterministic expense claim validation with policy-grounded AI assistance, so reviewers can audit every decision.",
+    tech: ["Python", "FastAPI", "React", "SQLite", "JWT"],
     image: "",
     demo: "",
-    repo: "",
+    repo: "https://github.com/rohani5432/claim-policy-check",
   },
   {
-    title: "Tasty Transit",
-    tagline: "Food delivery app",
+    title: "EventSphere",
+    tagline: "Event management platform",
     description:
-      "Connected an Android front end (Kotlin/Java) to a PHP/MySQL backend to handle ordering and data flow.",
-    tech: ["Kotlin", "Java", "PHP", "MySQL"],
+      "A PHP and MySQL web app for organizing and managing events, with user registration, event creation and editing, dashboards, and event sign-up.",
+    tech: ["PHP", "MySQL", "HTML", "CSS"],
     image: "",
     demo: "",
-    repo: "",
+    repo: "https://github.com/rohani5432/Event-Sphere",
   },
 ];
 
