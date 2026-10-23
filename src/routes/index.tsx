@@ -202,8 +202,8 @@ function Projects() {
                 {p.tech.map((t) => <span key={t} className="rounded-md bg-secondary px-2 py-1 text-xs">{t}</span>)}
               </div>
               <div className="mt-6 flex gap-3">
-                <ProjectLink href={p.demo} label="Live Demo" icon={<ExternalLink className="h-4 w-4" />} />
-                <ProjectLink href={p.repo || profile.github} label="GitHub" icon={<Github className="h-4 w-4" />} />
+                {p.demo && <ProjectLink href={p.demo} label="Live Demo" icon={<ExternalLink className="h-4 w-4" />} />}
+                <ProjectLink href={p.repo} label="View on GitHub" icon={<Github className="h-4 w-4" />} />
               </div>
             </div>
           </article>
