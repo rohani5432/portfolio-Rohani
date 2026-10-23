@@ -9,7 +9,7 @@ export const profile = {
   email: "rohanisingh9123@gmail.com",
   phone: "+91 9123177728",
   linkedin: "https://linkedin.com/in/rohani-kumari",
-  github: "https://github.com/rohanikumari",
+  github: "https://github.com/rohani5432",
   resumeUrl: "", // Add a link to your CV PDF here to show a "Download CV" button
   about: [
     "I'm comfortable across the stack — from MySQL-backed backend logic in PHP and Laravel to responsive front ends in HTML, CSS and JavaScript.",

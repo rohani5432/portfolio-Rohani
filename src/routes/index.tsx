@@ -279,7 +279,7 @@ function Contact() {
             <li><a href={`mailto:${profile.email}`} className="flex items-center gap-3 hover:text-primary"><Mail className="h-5 w-5 text-primary" />{profile.email}</a></li>
             <li><a href={`tel:${profile.phone.replace(/\s/g, "")}`} className="flex items-center gap-3 hover:text-primary"><Phone className="h-5 w-5 text-primary" />{profile.phone}</a></li>
             <li><a href={profile.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-primary"><Linkedin className="h-5 w-5 text-primary" />rohani-kumari</a></li>
-            <li><a href={profile.github} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-primary"><Github className="h-5 w-5 text-primary" />rohanikumari</a></li>
+            <li><a href={profile.github} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-primary"><Github className="h-5 w-5 text-primary" />rohani5432</a></li>
           </ul>
         </div>
         <form onSubmit={onSubmit} noValidate className="reveal glass space-y-4 rounded-2xl p-8">
