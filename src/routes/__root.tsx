@@ -78,8 +78,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Rohani Kumari — Full Stack Web Developer" },
-      { name: "description", content: "Portfolio of Rohani Kumari, Full Stack Web Developer (PHP & Laravel)." },
+      { title: "Rohani Kumari — Aspiring Software Engineer" },
+      { name: "description", content: "Portfolio of Rohani Kumari, Aspiring Software Engineer." },
       { name: "author", content: "Rohani Kumari" },
       { name: "theme-color", content: "#0b0b10" },
       { property: "og:type", content: "website" },
